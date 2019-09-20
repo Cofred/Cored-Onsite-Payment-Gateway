@@ -59,4 +59,5 @@ $header_seccode=$_SERVER["HTTP_SECRETCODE"]; // Received with response
 $header_accesstoken=$_SERVER["HTTP_ACCESSTOKEN"]; // Received with response
 
 if($seccode != $header_seccode) { return false; }
+
 if($accesstoken != $header_accesstoken) { return false; }
