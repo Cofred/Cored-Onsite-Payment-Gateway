@@ -12,7 +12,7 @@ Load Cofred library like this in your page
 
 https://cofredpay.com/sdk/cofred.js is the Javascript library url.
 
-Required Javacript variables
+# Required Javacript variables-
 
 1) cfd_merchantid - Your Cofred merchant ID here.
 2) cfd_accesstoken - Your Cofred access token here.
@@ -32,3 +32,6 @@ You can load Cofred payment button whereever you need. You just need to add belo
 <div id="cofred-button-container"></div>
 
 Or load "cofred-button-container" in your ID of any HTML tags.
+
+# Process to receive callback
+
