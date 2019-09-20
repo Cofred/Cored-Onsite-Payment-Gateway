@@ -35,3 +35,28 @@ Or load "cofred-button-container" in your ID of any HTML tags.
 
 # Process to receive callback
 
+Callback is sent by POST method in Json format.
+
+Callback sample
+
+{
+ "status":"SUCCESS",
+ "merchant_ref":"HUSD34UEDFJ",
+ "amount":"1000",
+ "currency":2 // 1 - GHS, 2 - NGN, 3 - USD, 4 - KES, 5 - UGX, 6 - TZS
+ "txn_reference":"HFYUERIEROI"
+}
+
+To validate callback use the process below - 
+
+We send encrypted form of your Cofred Secret Key and Access Tokens in header of callback.
+
+Validation code sample
+
+$seccode=strtoupper(md5("COFRED SECRET KEY HERE")); // Coded with callback check
+$accesstoken=strtoupper(md5("COFRED ACCESS TOKEN HERE")); // Coded with callback check
+$header_seccode=$_SERVER["HTTP_SECRETCODE"]; // Received with response
+$header_accesstoken=$_SERVER["HTTP_ACCESSTOKEN"]; // Received with response
+
+if($seccode != $header_seccode) { return false; }
+if($accesstoken != $header_accesstoken) { return false; }
