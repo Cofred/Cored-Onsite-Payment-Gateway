@@ -55,8 +55,8 @@ Validation code sample
 
 $seccode=strtoupper(md5("COFRED SECRET KEY HERE")); // Coded with callback check
 $accesstoken=strtoupper(md5("COFRED ACCESS TOKEN HERE")); // Coded with callback check
-$header_seccode=$_SERVER["HTTP_SECRETCODE"]; // Received with response
-$header_accesstoken=$_SERVER["HTTP_ACCESSTOKEN"]; // Received with response
+$header_seccode=$_SERVER["HTTP_SECRETCODE"]; // Sent with response in Header
+$header_accesstoken=$_SERVER["HTTP_ACCESSTOKEN"]; // Sent with response in Header
 
 if($seccode != $header_seccode) { return false; }
 
