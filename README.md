@@ -3,7 +3,7 @@ Onsite payment gateway sponsored by Cofred to pay via Cofred, Credit/Debit Cards
 
 Cofred onsite payment can be used to receive payments from Cofred, Credit/Debit Cards and Mobile Money on your website.
 
-Follow the details below to implement Cofred pay button on your website-
+Follow the details below to implement Cofred payment button on your website.
 
 You will need to set javascript parameters and load a Cofred Javascript library
 
