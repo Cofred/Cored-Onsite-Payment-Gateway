@@ -8,6 +8,7 @@ Follow the details below to implement Cofred pay button on your website-
 You will need to set javascript parameters and load a Cofred Javascript library
 
 Load Cofred library like this in your page
+
 <script src="https://cofredpay.com/sdk/cofred.js"></script>
 
 https://cofredpay.com/sdk/cofred.js is the Javascript library url.
