@@ -44,7 +44,7 @@ Callback sample
  "status":"SUCCESS",
  "merchant_ref":"HUSD34UEDFJ",
  "amount":"1000",
- "currency":2 // 1 - GHS, 2 - NGN, 3 - USD, 4 - KES, 5 - UGX, 6 - TZS
+ "currency":2  // 1 - GHS, 2 - NGN, 3 - USD, 4 - KES, 5 - UGX, 6 - TZS
  "txn_reference":"HFYUERIEROI"
 }
 
