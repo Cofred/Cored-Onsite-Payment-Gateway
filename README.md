@@ -19,7 +19,7 @@ https://cofredpay.com/sdk/cofred.js is the Javascript library url.
 2) cfd_accesstoken - Your Cofred access token here.
 3) amount - Add amount you want to debit using the API.
 4) item_name - Your Item name.
-5) payment_method - You need to select which method you need to apply to pay. (E.g. - Cofred, Card, MobileMoney)
+5) payment_method - You need to select which method you need to apply to pay. (E.g. - Cofred, Card, MobileMoney, Bank Transfer)
 6) currency - Pass currency you want to charge user (Supported currencies GHS, NGN, USD, KES, UGX, TZS)
 7) merchant_ref - Your transaction reference number to identify transaction in callbacks.
 8) notify_url - Here you need to pass url where you want to receive callbacks of each transactions.
